@@ -1,6 +1,7 @@
 <?php
 
 require_once 'lib/kint/kint.php';
+require_once 'lib/kint/kint_custom.php';
 require_once 'kint.civix.php';
 use CRM_Kint_ExtensionUtil as E;
 
