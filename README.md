@@ -8,8 +8,9 @@ The extension is licensed under [AGPL-3.0](LICENSE.txt).
 ## Requirements
 
 * PHP v5.6+
-* CiviCRM (*FIXME: Version number*)
+* CiviCRM 4.X / 5.X
 
 ## Usage
 
-Once the libray is isntalled **s()** and **s()** functions are available for debugging your CiviCRM extensions
+Once the libray is installed **d()** and **s()** functions are available for debugging your CiviCRM extensions
+More examples [here](https://kint-php.github.io/kint/#use)
