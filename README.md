@@ -1,6 +1,7 @@
 # com.ixiam.modules.kint
 
 Adds Kint library for CiviCRM debugging
+
 ![Screenshot](images/screenshot1.png)
 
 More info about Kint library [here](https://kint-php.github.io/kint/)
