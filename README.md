@@ -1,23 +1,29 @@
 # com.ixiam.modules.kint
 
-Adds Kint library for CiviCRM debugging
+- Adds [Kint](https://kint-php.github.io/kint/) library for enhace variable debuging
+- Adds [SqlFormatter](https://github.com/jdorn/sql-formatter) library for formatting sql statements.
 
-![Screenshot](images/screenshot1.png)
+**Kint**
+![Kint](images/screenshot1.png)
 
-More info about Kint library [here](https://kint-php.github.io/kint/)
+**SqlFormatter**
+![SqlFormatter](images/screenshot2.png)
+
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
 ## Requirements
 
-* PHP v5.6+
-* CiviCRM 4.X / 5.X
+* PHP v5.6+ / v7.x
+* CiviCRM 4.x / 5.x
 
 ## Usage
 
 Once the libray is installed, printout functions are available for debugging your CiviCRM extensions
-- **d($var)**: prints out $var in rich mode
-- **s($var)**: prints out $var in plain mode
+- **q($var)**: prints out $var with sql format and syntax highlights
+- **qd($var)**: prints out $var with sql format and syntax highlights
+- **d($var)**: prints out $var in rich mode using kint
+- **s($var)**: prints out $var in plain mode using kint
 - **dd($var)**: calls **d()** and **die()**
 - **sd($var)**: calls **s()** and **die()**
 - **dr($var)**: calls **d()** and returns $var
