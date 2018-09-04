@@ -125,7 +125,7 @@ class SqlFormatter
     // For CLI syntax highlighting
     public static $cli_quote = "\x1b[34;1m";
     public static $cli_backtick_quote = "\x1b[35;1m";
-    public static $cli_reserved = "\x1b[37m";
+    public static $cli_reserved = "\x1b[91m";
     public static $cli_boundary = "";
     public static $cli_number = "\x1b[32;1m";
     public static $cli_word = "";
