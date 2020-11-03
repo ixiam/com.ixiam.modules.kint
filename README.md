@@ -1,3 +1,7 @@
+**IMPORTANT: This extensions has no more maintenance and it has been replaced with [Debug Tools](https://lab.civicrm.org/extensions/debugtools) extension**
+
+----
+
 # com.ixiam.modules.kint
 
 - Adds [Kint](https://kint-php.github.io/kint/) library for enhace variable debuging
